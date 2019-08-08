@@ -30,7 +30,7 @@ int main()
 		// error...
 	}
 sf::Sprite sprite[16];
-for (int i = 0, j = 0; i < 16; i++) {
+for (int i = 0; i < 16; i++) {
 
 	sprite[i].setTexture(texture);
 
